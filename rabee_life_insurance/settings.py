@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'rabee_life_insurance.wsgi.application'
+WSGI_APPLICATION = 'rabee_life_insurance.wsgi.app'
 
 
 # Database
