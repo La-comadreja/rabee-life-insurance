@@ -1,0 +1,14 @@
+{
+  “builds”: [
+    {
+      “src”: “rabee_life_insurance/wsgi.py”,
+      “use”: “@vercel/python”
+    }
+  ],
+  “routes”: [
+    {
+      “src”: “/(.*)”,
+      “dest”: “rabee_life_insurance/wsgi.py”
+    }
+  ]
+}
